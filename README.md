@@ -23,3 +23,15 @@ Example input: `HAPPY MIND HAPPY LIFE`
 dotnet build
 dotnet run
 ```
+
+## Requirements Mapping
+
+This implementation fulfills all assignment requirements:
+
+- **Développée en C# (Console)** : Application console utilisant .NET 8.0.
+- **Au moins 2 structures de données** : HuffmanNode (arbre), PriorityQueue, Dictionary<char, int>, Dictionary<char, string>.
+- **Opérations pertinentes** : Insertion (fréquences), recherche (codes Huffman), tri (affichage ordonné), encodage/décodage.
+- **Gestion des entrées utilisateur et affichage** : Console.ReadLine pour input, affichage clair des résultats (fréquences, codes, bitstring).
+- **Justification des structures** : Voir presentation pour détails et complexité temporelle (O(n log n) construction, O(m) encodage).
+- **Qualité du code POO** : Classes séparées (HuffmanNode, HuffmanTree, HuffmanCodec), encapsulation, modularité, commentaires XML.
+- **Démonstration** : Code prêt pour explication ligne par ligne et modifications en direct (ajout de fonctionnalités comme taux de compression).
